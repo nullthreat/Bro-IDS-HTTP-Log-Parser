@@ -10,8 +10,8 @@ To install the bro_ids-http-log parsing gem simply run the following command:
 
 ## Usage
 
-`require 'bro_ids/http/log'`
-`BroIds::Http:Log.parse('YOUR HTTP LOG LOCATION HERE')`
+	require 'bro_ids/http/log'
+	BroIds::Http:Log.parse('YOUR HTTP LOG LOCATION HERE')
 
 ## Example 1:
 
