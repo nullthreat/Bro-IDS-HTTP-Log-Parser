@@ -17,9 +17,9 @@ To install the bro_ids-http-log parsing gem simply run the following command:
 
 	require 'bro_ids/http/log'
 
-	dns_log = File.open("http.log")
+	http_log = File.open("/nsm/bro/logs/current/http.log")
 	BroIds::Http::Log.parse(http_log) do |parsed|
-	  puts 
+	  puts "At " + parsed[:timestamp] + " host " + parsed[:id_orig_h] + " issued a " + parsed[:method]  + " request to " + parsed[:host]
 	end
 
 
