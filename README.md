@@ -1,6 +1,6 @@
-# bro_ids-dns-log
+# bro_ids-http-log
 
-This gem will parse the DNS log files created by BRO IDS (http://www.bro-ids.org/) and prepare the fields to be called by name in your scripts.
+This gem will parse the http log files created by BRO IDS (http://www.bro-ids.org/) and prepare the fields to be called by name in your scripts.
 
 
 ## Installation
